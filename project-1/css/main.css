@@ -25,9 +25,15 @@ h2 {
     text-align: center;
 }
 
-video,
-audio,
-.mejs-treehouse {
+.videoWrapper, .audioWrapper {
     margin: 0 auto;
     display: block;
+}
+
+.videoWrapper {
+    width: 852px;
+}
+
+.audioWrapper {
+    width: 400;
 }
